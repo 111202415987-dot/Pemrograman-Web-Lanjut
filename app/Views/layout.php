@@ -619,6 +619,8 @@
 
   </main><!-- End #main -->
 
+  <?= $this->include('components/footer') ?>
+
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="copyright">
