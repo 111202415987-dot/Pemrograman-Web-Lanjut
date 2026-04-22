@@ -1,6 +1,5 @@
-ini halaman home <br>
-<a href="/produk">ke halaman produk</a><br>
-<a href="/keranjang">ke halaman keranjang</a><br>
+<?= $this->extend('layout') ?>
+<?= $this->section('content') ?>
  <!-- Table with stripped rows -->
               <table class="table datatable">
                 <thead>
@@ -51,3 +50,4 @@ ini halaman home <br>
                 </tbody>
               </table>
               <!-- End Table with stripped rows -->
+<?= $this->endSection() ?>
